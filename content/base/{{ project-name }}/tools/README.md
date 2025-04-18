@@ -32,6 +32,6 @@ To update local client cred (AWS token),
     --aws-profile <aws-profile> \
     --local-profile <local-profile>
 ./update-cred-ai.sh --account-id 288163945356 --role GlueDataConsumer \
-    --aws-profile p6m-dev-dev \
+    --aws-profile p6m-archetypes-dev \
     --local-profile local-profile
 ```
