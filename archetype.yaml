@@ -1,17 +1,13 @@
 ---
-description: "Spring Boot, Namespaced, Modular Microservice"
-authors:
-  [
-    "Jimmie Fulton",
-    "George Herde",
-  ]
-languages: ["Java"]
-frameworks: ["Spring", "Spring Boot", "JPA", "gRPC"]
-tags: ["Modular", "Service", "Microservice", "gRPC"]
+description: "Python Chatbot"
+authors: ["Jimmie Fulton", "George Herde"]
+languages: ["Python"]
+frameworks: []
+tags: []
 
 requires:
-  archetect: 2.0.0-ALPHA.10
+  archetect: 2.0.0
 
 components:
-  manifests: git@github.com:p6m-archetypes/platform-application-manifests.archetype.git
-  gitignore: https://github.com/archetect/dot-gitignore.archetype.git
+  manifests: https://github.com/p6m-archetypes/platform-application-manifests.archetype.git#v1
+  gitignore: https://github.com/archetect-common/dot-gitignore.archetype.git#v1
